@@ -1,0 +1,90 @@
+
+    .bgimage{
+        position: fixed;
+        z-index:-2;
+    }
+
+    .quote{
+        width: 800px;
+        height: 250px;
+        color: white;
+        text-align: bottom;
+        /* margin-top:50px;  */
+        /* background-color: rgb(40, 127, 202); */
+        font-family: "Roboto", sans-serif;
+        
+    }
+    nav{
+      font-size: large;
+    }
+    nav .navbar-nav li a{
+      color: aqua !important;
+    }
+    .nav {
+      color: white !important;
+    }
+    .navbar-brand{
+        font-size:xx-large;
+    }
+    .donate {
+      -webkit-appearance: button;
+      -moz-appearance: button;
+      appearance: button;
+      width: 200px;
+      font-size:xx-large;
+      background-color: rgb(236, 245, 253,1.0);
+      text-decoration: none;
+      color: rgb(46, 12, 78);
+      /* color: white; */
+      border-radius: 70px;
+      box-shadow: 0px 0px 20px 1px rgb(0,0,0,5);
+    }
+    .donate:hover {
+      -webkit-appearance: button;
+      -moz-appearance: button;
+      appearance: button;
+      text-decoration: none;
+      width: 200px;
+      font-size:xx-large;
+      color: white;
+      backdrop-filter: blur(5px);
+      background-color: rgb(236, 245, 253,0.1);
+      text-decoration: none;
+      /* color: initial; */
+      border-radius: 70px;
+    }
+    .contact {
+        -webkit-appearance: button;
+        -moz-appearance: button;
+        appearance: button;
+        width: 150px;
+        font-size:x-large;
+        background-color: rgb(236, 245, 253,1.0);
+        text-decoration: none;
+        color: rgb(46, 12, 78);
+        /* color: white; */
+        border-radius: 70px;
+        box-shadow: 0px 0px 20px 1px rgb(0,0,0,5);
+      }
+      .contact:hover {
+        -webkit-appearance: button;
+        -moz-appearance: button;
+        appearance: button;
+        text-decoration: none;
+        width: 150px;
+        font-size:x-large;
+        color: white;
+        backdrop-filter: blur(5px);
+        background-color: rgb(236, 245, 253,0.1);
+        text-decoration: none;
+        /* color: initial; */
+        border-radius: 70px;
+      }
+    .foot{
+      background-color: aliceblue;
+      position: absolute;
+      width: 100%;
+      margin-top: 300px;
+      height: 100px;
+      /* bottom: 0; */
+    }

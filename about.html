@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Helping Hands</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<style>
+.mySlides {display:none;}
+</style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar bg-transparent" style="position:absolute; width:100%">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#" style="color: white !important; font: weight 10px;">HELPING HANDS</a>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01" >
+          
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item active ml-2" >
+              <a class="nav-link " href="index.html">HOME</a>
+            </li>
+            <li class="nav-item ml-2">
+              <a class="nav-link" href="#" style="color: white !important;">ABOUT</a>
+            </li>
+            <li class="nav-item ml-2">
+              <a class="nav-link" href="contact.html" >CONTACT<span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      
+      
+
+<div class="bgimage" align=center>
+  <img class="mySlides" src="img/1.jpg" style="width:100%;opacity: 0.8;">
+  <img class="mySlides" src="img/2.jpg" style="width:100%">
+  <img class="mySlides" src="img/3.jpg" style="width:100%;opacity: 0.5;">
+</div>
+
+<br><br><br><br><br><br>
+<div style="width:100%" align="center">
+    <div class="main">
+        <!-- <div style="color: aqua;font-size: 25px;padding-top: 20px;">ABOUT US</div> -->
+        <div style="color: aqua;font-size: 40px;padding-top: 20px;">HELPING HANDS</div>
+        <br>
+        <div style="color: white;font-size: 40px;padding-top: 15px;">
+            <p>
+              The Helping Hands Foundation is a non-profit organization, which works with children who are diagnosed with cancer.
+              We hope to make use of the funds collected in the best way possible ,in order to  provide them with the all the basic amenities which can bring a small difference in their lives.
+            </p>
+            <!-- <i class="fa fa-envelope" style="font-size:24px"></i> -->
+            <!-- <div style="color: white;font-size: 30px;">stevenfrank.g@gmail.com</div> -->
+        </div>
+        <br><br>
+        <a class="contact" href="contact.html">CONTACT</a>
+
+    </div>
+</div>
+
+
+<style>
+  body{
+    background-color: rgb(0,0,0,5);
+    
+  }
+    .bgimage{
+        position: fixed;
+        z-index:-2;
+    }
+
+    .main{
+        height: 600px;
+        width: 1000px;
+        border-radius: 20px;
+        backdrop-filter: blur(5px);
+        box-shadow: 5px 5px 15px 1px rgb(0,0,0,5);
+        background-color: rgb(0, 0, 0,0.2);
+    }
+    nav{
+      font-size: large;
+    }
+    nav .navbar-nav li a{
+      color: aqua !important;
+    }
+    .nav {
+      color: white !important;
+    }
+    .navbar-brand{
+        font-size:xx-large;
+    }
+    
+
+
+</style>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 5000); // Change image every 2 seconds
+}
+</script>
+
+</body>
+</html>
